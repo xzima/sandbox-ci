@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shell
+    username: shell
+    password: shell
+  shell:
+    command:
+      help:
+        grouping-mode: flat
